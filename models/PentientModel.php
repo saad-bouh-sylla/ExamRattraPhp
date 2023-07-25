@@ -1,6 +1,6 @@
 <?php
 
-// models/Patient.php
+
 
 class PatientModel {
     private $id;
@@ -68,4 +68,8 @@ class PatientModel {
     public function setTelephone($telephone) {
         $this->telephone = $telephone;
     }
+
+    public function insert($data=null):int{
+        return parent::insert($this->dateProd);
+     }
 }

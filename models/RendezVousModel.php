@@ -1,6 +1,6 @@
 <?php
 
-// models/RendezVous.php
+
 
 class RendezVousModel {
     private $id;
@@ -20,7 +20,7 @@ class RendezVousModel {
         $this->etat = $etat;
     }
 
-    // Getters and setters
+    
 
     public function getId() {
         return $this->id;
@@ -45,4 +45,8 @@ class RendezVousModel {
     public function setEtat($etat) {
         $this->etat = $etat;
     }
+
+    public function insert($data=null):int{
+        return parent::insert($this->dateProd);
+     }
 }

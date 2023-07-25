@@ -1,6 +1,5 @@
 <?php
 
-// models/Consultation.php
 
 class ConsultationModel extends RendezVousModel {
     private $medecin;

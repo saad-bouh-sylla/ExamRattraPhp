@@ -1,6 +1,5 @@
 <?php
 
-// models/Prestation.php
 
 class PrestationModel {
     const TYPE_ANALYSE = 'Analyse';
